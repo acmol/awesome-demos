@@ -5,7 +5,7 @@ import re
 r = re.compile("(?:([^-]+)\n)+-+\n+((?:[^:]+\n)+)")
 
 def get_abstract(path):
-    with open(path, encoding='utf-8') as readme_file:
+    with open(path, encoding='utf-8') as readme_file:2
         content = readme_file.read()
         groups = r.match(content).groups()
         return map(lambda s: s.strip(), groups)
