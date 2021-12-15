@@ -16,10 +16,11 @@ def gen_abstract_dict():
         awesome_type = os.path.split(root)[0].strip("./\\")
         for file_name in files:
             if file_name == "README.md" and root != ".":
-                name, abstract = get_abstract(os.path.join(root, file_name))
+                path = os.path.join(root, file_name)
+                name, abstract = get_abstract(path)
                 if awesome_type not in generated_dict:
                     generated_dict[awesome_type] = ""
-                generated_dict[awesome_type] += "### " + name + "\n\n" + abstract + "\n\n"
+                generated_dict[awesome_type] += "### [{name}]({path}) \n\n {abstract} \n\n".format(name=name, abstract=abstract, path=path)
         
     return generated_dict
 
