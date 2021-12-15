@@ -67,5 +67,3 @@ sub command的支持也很天然：
 这样一个简单的样例就支持了install和search两个sub command，模仿了出了apt命令的sub command。
 
 这项目要是能支持自动生成autocompelte就堪称完美了。
-
-更多官方样例：
