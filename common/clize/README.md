@@ -1,11 +1,12 @@
 clize
 -----------
 
-用于将python函数包装成命令行工具
-
+用于将python函数包装成命令行工具。
 自动根据函数的参数名、默认值、注释来生成flag和help，十分简单方便。
 
-简单用法：
+URL: https://github.com/epsy/clize
+
+简单用法:
 
     # hello.py
     from clize import run
@@ -62,3 +63,5 @@ sub command的支持也很天然：
 这样一个简单的样例就支持了install和search两个sub command，模仿了出了apt命令的sub command。
 
 这项目要是能支持自动生成autocompelte就堪称完美了。
+
+更多官方样例：
