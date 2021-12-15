@@ -5,6 +5,8 @@ jq
 
 URL: https://stedolan.github.io/jq/
 
+安装: sudo apt install jq
+
 Online demo: https://jqplay.org/
 
 对于下述 issues.json

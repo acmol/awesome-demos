@@ -1,6 +1,14 @@
 # awesome-demos
 Learn awesome projects by simple demos
 
+收集一些可以比较赞的项目，并通过简单的几个demo展示基本用法。
+
+收集的项目特点：
+
+1. 安装简单，或无需安装即可在线试用
+2. demo简单用懂
+3. 项目实用
+
 ## 通用项目
 
 ### clize

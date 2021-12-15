@@ -6,6 +6,10 @@ clize
 
 URL: https://github.com/epsy/clize
 
+安装：
+
+    pip install clize
+
 简单用法:
 
     # hello.py
