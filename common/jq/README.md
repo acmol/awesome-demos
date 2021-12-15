@@ -1,6 +1,8 @@
 jq
 ----
 
+命令行解析json利器。
+
 URL: https://stedolan.github.io/jq/
 
 Online demo: https://jqplay.org/
