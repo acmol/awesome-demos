@@ -2,10 +2,10 @@
 import os
 import re
 
-r = re.compile("(?:([^-]+)\n)+-+\n+((?:[^:]+\n)+)")
+r = re.compile("(?:([^ \n]+)\n)+-+\n+((?:[^:]+\n)+)")
 
 def get_abstract(path):
-    with open(path, encoding='utf-8') as readme_file:2
+    with open(path, encoding='utf-8') as readme_file:
         content = readme_file.read()
         groups = r.match(content).groups()
         return map(lambda s: s.strip(), groups)
